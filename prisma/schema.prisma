@@ -1,16 +1,23 @@
-generator client { provider = "prisma-client-js" }
-datasource db { provider = "postgresql"; url = env("DATABASE_URL") }
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
 model Wish {
- id String @id @default(cuid())
- sessionId String?
- department String
- wishText String
- aiSuggestions String
- selectedSuggestion String?
- aiUsed Boolean @default(false)
- status String @default("new")
- problemCategory String?
- solutionType String?
- keywords String?
- createdAt DateTime @default(now())
+  id                 String   @id @default(cuid())
+  sessionId          String?
+  department         String
+  wishText           String
+  aiSuggestions      String
+  selectedSuggestion String?
+  aiUsed             Boolean  @default(false)
+  status             String   @default("new")
+  problemCategory    String?
+  solutionType       String?
+  keywords           String?
+  createdAt          DateTime @default(now())
 }
