@@ -9,13 +9,13 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "latest",
+    "@prisma/client": "7.10.0",
     "bcryptjs": "latest",
     "jose": "latest",
     "lucide-react": "latest",
     "next": "latest",
     "openai": "latest",
-    "prisma": "latest",
+    "prisma": "7.10.0",
     "react": "latest",
     "react-dom": "latest",
     "recharts": "latest",
