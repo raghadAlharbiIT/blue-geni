@@ -3,3 +3,6 @@
 .ai-panel{margin-bottom:24px;border-color:#d9e7c1}.ai-report{margin-top:24px}.ai-report li{line-height:1.9;margin-bottom:8px}.roadmap-step{padding:20px;border-right:3px solid #a6bd64;background:#f6f8f1;margin:16px 0;border-radius:10px}.hero h1{font-size:clamp(42px,5.7vw,84px)}.hero{min-height:660px}.steps{background:#214e41;padding:34px;border-radius:24px;color:#fff}.step p{color:#d4e1d8}.step{border-color:#547566}.hero-card{border-radius:32px;background:#fffffd}.ai-report p{white-space:pre-wrap}
 
 header{background:#fafbf6}.hero h1 em{color:#92b03d}.form-shell{max-width:780px}.panel{border-radius:22px}details{margin:18px 0}summary{cursor:pointer;padding:12px 0}.hero-card{box-shadow:0 24px 65px #214e4112}input,select,textarea{background:#fafcf9}.page-title{line-height:1.5}
+
+/* Readable journey cards and a single employee page. */
+.steps .step{background:#2c5a4d;border-color:#547668;color:#fff}.steps .step h3{color:#fff}.steps .step p{color:#e0ebe3}.steps .step span{color:#c3d981;font-size:16px}.hero-choice:hover{border-color:#92b03d;background:#f7f9f0}.hero-choice{background:#fff;border-color:var(--line)}#share{scroll-margin-top:24px;max-width:100%;border-top:1px solid var(--line)}#share .form-shell{padding-top:12px}.brand{cursor:default}@media(max-width:600px){.steps{padding:18px}.steps .step p{font-size:14px}.hero h1{font-size:40px}}

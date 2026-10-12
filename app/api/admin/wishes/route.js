@@ -1,1 +1,0 @@
-import{db}from'../../../../lib/db';import{requireAdmin}from'../../../../lib/auth';import{NextResponse}from'next/server';export async function GET(){if(!await requireAdmin())return NextResponse.json({error:'unauthorized'},{status:401});const rows=await db.wish.findMany({orderBy:{createdAt:'desc'},take:500});return NextResponse.json(rows)}
